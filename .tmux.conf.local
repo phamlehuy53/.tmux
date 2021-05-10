@@ -423,4 +423,5 @@ tmux_conf_update_plugins_on_reload=true
 #
 #
 # Run tpm
-run '~/.config/dotfiles/tmux-plug/tpm/tpm'
+# run '~/.config/dotfiles/tmux-plug/tpm/tpm'
+# run '$HOME/.tmux/plugins/tpm/tpm'
