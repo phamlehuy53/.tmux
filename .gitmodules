@@ -2,3 +2,6 @@
         path = tpm
         url = https://github.com/tmux-plugins/tpm
 
+[submodule "nord-tmux"]
+	path = nord-tmux
+	url = https://github.com/arcticicestudio/nord-tmux
