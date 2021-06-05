@@ -15,7 +15,7 @@ fi
 clone() {
 	local plugin="$1"
 	cd "$(tpm_path)" &&
-		GIT_TERMINAL_PROMPT=0 git clone --recursive --depth 1 --shallow-submodules --depth 1 --shallow-submodules "$plugin" >/dev/null 2>&1
+		GIT_TERMINAL_PROMPT=0 git clone --recursive --depth 1 --shallow-submodules "$plugin" >/dev/null 2>&1
 }
 
 # tries cloning:

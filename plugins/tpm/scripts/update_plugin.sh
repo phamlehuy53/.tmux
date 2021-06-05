@@ -22,7 +22,7 @@ pull_changes() {
 	local plugin_path="$(plugin_path_helper "$plugin")"
 	cd "$plugin_path" &&
 		GIT_TERMINAL_PROMPT=0 git pull &&
-		GIT_TERMINAL_PROMPT=0 git submodule update --init --recursive --depth 1 --depth 1
+		GIT_TERMINAL_PROMPT=0 git submodule update --init --recursive --depth 1
 }
 
 update() {
